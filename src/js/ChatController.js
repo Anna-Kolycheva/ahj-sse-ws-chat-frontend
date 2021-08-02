@@ -13,7 +13,7 @@ export default class ChatController {
     this.textArea = this.element.querySelector('.chat__messages-text');
     this.messagesBox = this.element.querySelector('.chat__messages-messages');
 
-    this.server = 'ws://ahj-ws-chat.herokuapp.com/ws';
+    this.server = 'wss://ahj-ws-chat.herokuapp.com/ws';
     // this.server = 'ws://localhost:7070/ws';
 
     this.onStart = this.onStart.bind(this);
